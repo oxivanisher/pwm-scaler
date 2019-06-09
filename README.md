@@ -1,3 +1,8 @@
+# What it does
+
+It reads a a PWM signal on a Arduino nano or mini pro and maps the value into a
+desired range, while keeping a value of 0 always 0.
+
 # Why?
 
 I use a woodpecker based Mini CNC with a attached laser for some engraving.
