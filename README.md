@@ -21,7 +21,9 @@ pin 3 and 9 with 490 Hz. You can use pin 5 and 6 for 980 Hz if required.
 
 To do this, enable `DEBUG` and view the serial console output. Then slowly
 increase the PWM value (how strong the laser shoots) and note when it starts
-to leave a mark. Now you can set the `PWM_MIN_VALUE` to this number.
+to leave a mark. Now you can set the `PWM_MIN_VALUE` to this number. Remember
+to disable `DEBUG` since the serial connection is slowing down the Arduino
+immensly.
 
 # Attention
 
@@ -35,3 +37,4 @@ since my Mini CNC is very slow anyways.
 Collection of useful links:
 * [Three Ways To Read A PWM Signal With Arduino](http://www.benripley.com/diy/arduino/three-ways-to-read-a-pwm-signal-with-arduino/)
 * [Arduino reference - analogWrite()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/)
+* [Arduino reference - pulseIn()](https://www.arduino.cc/reference/en/language/functions/advanced-io/pulsein/)
