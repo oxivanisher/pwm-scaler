@@ -38,3 +38,4 @@ Collection of useful links:
 * [Three Ways To Read A PWM Signal With Arduino](http://www.benripley.com/diy/arduino/three-ways-to-read-a-pwm-signal-with-arduino/)
 * [Arduino reference - analogWrite()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/)
 * [Arduino reference - pulseIn()](https://www.arduino.cc/reference/en/language/functions/advanced-io/pulsein/)
+* https://arduinoinfo.mywikis.net/wiki/Arduino-PWM-Frequency
